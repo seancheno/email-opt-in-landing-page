@@ -1,0 +1,37 @@
+.EmailForm {
+	display: flex;
+	margin: 43px 0px;
+}
+
+.EmailForm input {
+	height: 60px;
+	padding: 0 0 0 1.5rem;
+	border: 2px solid #189bef;
+	background-color: #fff;
+	border-radius: 100px 0px 0px 100px;
+	display: -webkit-box;
+	display: flex;
+	width: 80%;
+	max-width: 700px;
+	outline: none;
+}
+
+.EmailForm button {
+	color: #fff;
+	background-color: #189bf1;
+	border-radius: 0 100px 100px 0;
+	padding: 15px 25px;
+	font-size: 18px;
+	border: 2px solid #189bef;
+	outline: none;
+}
+
+.EmailForm button:hover {
+	cursor: pointer;
+}
+
+.EmailForm img {
+	display: flex;
+    margin: auto;
+    padding: 0px 30px 10px 10px;
+}

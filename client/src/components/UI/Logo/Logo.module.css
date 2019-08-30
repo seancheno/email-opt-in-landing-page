@@ -1,0 +1,15 @@
+.Logo {
+	transition-duration: 0.3s;
+}
+
+.Logo img {
+	width: 52px;
+	height: 50%;
+}
+
+.Logo:hover {
+	transition-duration: 0.3s;
+	transform: scale(1.05);
+}
+
+

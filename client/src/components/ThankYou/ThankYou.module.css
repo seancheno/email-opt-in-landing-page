@@ -1,0 +1,21 @@
+.ThankYou {
+    color: black;
+    max-width: 680px;
+    padding: 25px;
+}
+
+.ThankYou h1 {
+	font-size: 35px;
+	color: #10171a;
+}
+
+.ThankYou p {
+	font-size: 18px;
+	color: #10171a;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+
+.ThankYou br {
+	margin: 10px 0px;
+}
