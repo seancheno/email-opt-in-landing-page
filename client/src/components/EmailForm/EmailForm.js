@@ -33,10 +33,8 @@ class EmailForm extends Component {
 				console.log(res);
 				if (res.data.success) {
 					//If the response from MailChimp is good...
-					setTimeout(function() {
-						this.handleLoadingState(false);
-						this.setState({ success: true });
-						  }, 5000);
+					this.handleLoadingState(false);
+					this.setState({ success: true });
 				} else {
 					//Handle the bad MailChimp response...
 					this.handleLoadingState(false);

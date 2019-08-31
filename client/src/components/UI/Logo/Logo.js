@@ -5,7 +5,7 @@ import defaultLogo from "../../../assets/images/logo.png";
 
 const logo = props => (
 		<div className={classes.Logo}>
-			<img src={defaultLogo} alt="Daily Pulse" />
+			<img src={defaultLogo} alt="Placeholder image" />
 		</div>
 );
 

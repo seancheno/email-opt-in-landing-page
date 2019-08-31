@@ -1,0 +1,91 @@
+.NavigationItemDropDown {
+	color: white;
+	margin: 10px 0;
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	font-size: 17px;
+	font-weight: normal;
+	opacity: 0.8;
+	border-bottom: 4px solid transparent;
+	transition-duration: 0.2s;
+}
+
+.NavigationItemDropDown:hover {
+	transform: scale(1.025);
+	cursor: pointer;
+}
+
+@media (min-width: 1120px) {
+	.NavigationItemDropDown {
+		margin: 10px;
+		display: flex;
+		height: 100%;
+		width: auto;
+		align-items: center;
+	}
+}
+
+.DropDown {
+	position: absolute;
+	background-color: #ececec;
+	color: gray;
+	font-size: 1px;
+	opacity: 0;
+	right: 162px;
+	width: 120px;
+	transition: 0.4s ease;
+	z-index: 1;
+	cursor: pointer;
+
+}
+
+@media (max-width: 1120px) {
+	.DropDown {
+		bottom: 37px;
+		position: relative;
+		margin-bottom: -4vw;
+		background-color: #ececec;
+		font-size: 16px;
+		opacity: 1;
+		font-weight: 600;
+		text-align: center;
+		right: 24px;
+		width: 245px;
+		height: 40px;
+		border-radius: 10px;
+	}
+}
+
+.DropDown:hover {
+	background-color: #ececec;
+	font-size: 16px;
+	opacity: 1;
+	font-weight: 600;
+	text-align: center;
+	right: 6vw;
+	width: 245px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+.Copy {
+	color: rgb(71, 71, 71);
+	background-color: #ececec;
+	border-radius: 5px;
+	padding: 3px 5px;
+	animation: fade-out 1.7s ease forwards;
+}
+
+@keyframes fade-out {
+	0% {
+		transform: translateY(30px);
+		opacity: 1;
+	}
+	60% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}

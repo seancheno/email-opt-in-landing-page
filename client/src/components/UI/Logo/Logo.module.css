@@ -7,9 +7,14 @@
 	height: 50%;
 }
 
+@media only screen and (max-width: 840px) {
+	.Logo img {
+		width: 52px;
+		height: 52px;
+	}
+}
+
 .Logo:hover {
 	transition-duration: 0.3s;
 	transform: scale(1.05);
 }
-
-

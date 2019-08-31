@@ -1,0 +1,46 @@
+.NavigationItem {
+	margin: 10px 0;
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+}
+
+.NavigationItem a {
+	color: #8f5c2c;
+	text-decoration: none;
+	width: 100%;
+	box-sizing: border-box;
+	display: block;
+}
+
+.NavigationItem:active {
+	color: green;
+}
+
+.Active a {
+	color: blue !important;
+}
+
+@media (min-width: 1120px) {
+	.NavigationItem {
+		margin: 10px;
+		display: flex;
+		height: 100%;
+		width: auto;
+		align-items: center;
+	}
+
+	.NavigationItem a {
+		color: white;
+		height: 100%;
+		padding: 18px 10px;
+		border-bottom: 4px solid transparent;
+		font-size: 17px;
+		font-weight: normal;
+		opacity: 0.8;
+	}
+
+	a:active {
+		color: purple;
+	}
+}

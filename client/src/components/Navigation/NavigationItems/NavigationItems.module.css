@@ -1,0 +1,21 @@
+.NavigationItems {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+@media (min-width: 1120px) {
+	.NavigationItems {
+		flex-flow: row;
+		padding-left: 20px;
+		padding-right: 60px;
+	}
+}
+
+.Active,
+.NavigationItems a:active {
+	color: rgb(218, 150, 111) !important;
+}
