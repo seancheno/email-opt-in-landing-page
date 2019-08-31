@@ -14,7 +14,7 @@ const navigationItems = props => (
 		</NavigationItem>
 		{/* <NavigationItemDropDown>Get in touch</NavigationItemDropDown> */}
 		<NavigationItem clicked={props.clicked}>
-			<a href="https://github.com/seancheno/dna-splash-client" className={classes.NavigationItems}>
+			<a href="https://github.com/seancheno/email-opt-in-landing-page" className={classes.NavigationItems}>
 				Github
 			</a>
 		</NavigationItem>
