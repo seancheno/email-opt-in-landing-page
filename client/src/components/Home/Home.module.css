@@ -1,6 +1,6 @@
 .Home {
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	display: flex;
 }
 
@@ -8,10 +8,6 @@
 	.Home {
 		flex-direction: column;
 	}
-  }
-
-.Home div {
-	flex: 1;
 }
 
 .Home h1 {
@@ -21,9 +17,9 @@
 }
 
 .Home h2 {
-	font-size:29px;
+	font-size: 29px;
 	margin: 0px;
-	color: #005ab6;
+	color: #e9a73f;
 }
 
 .Home h3 {
@@ -37,18 +33,52 @@
 	color: #005ab6;
 }
 
+.Home span:nth-child(2) {
+	color: rgb(49, 179, 240);
+}
+
 .LeftCol {
-	padding: 130px 3% 0% 3%;
+	display: flex;
+	flex-direction: column;
+	padding: 180px 3% 0% 3%;
+	animation-name: fade-in;
+	animation-duration: 1s;
+
 }
 
 @media only screen and (max-width: 840px) {
 	.LeftCol {
-		padding: 20px 3% 0% 3%;
+		padding: 55px 5% 0% 5%;
 	}
-  }
+}
 
 .RightCol {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 68px 0px;
+	width: 72%;
+	justify-content: center;
+	background: linear-gradient(rgba(182, 0, 0, 0),rgba(255, 244, 234, 0.5)),url("https://www.morningbrew.com/assets/phones-daily-homepage.png"),linear-gradient(#ff904f,#f1ae18);;
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url("https://cdn.thewirecutter.com/wp-content/uploads/2019/06/budgetandroid-2x1-.jpg");
+    background-position: center;
+    background-size: cover;
+    /* height: calc(100vh - 68px); */
 }
+
+@media only screen and (max-width: 840px) {
+	.RightCol {
+		padding: 20px 0px;
+		width: 100%;
+	}
+}
+
+.HeaderLogo {
+	width: 372px;
+	margin-bottom: 3px;
+}
+
+@keyframes fade-in {
+	0%   {opacity: 0}
+	100%   {opacity: 100}
+  }
+  
